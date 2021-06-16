@@ -1,4 +1,4 @@
-# (c) @AbirHasan2005
+# (c) @AJTITAN
 # This is very simple Telegram Videos Merge Bot.
 # Coded by a Nub.
 # Don't Laugh seeing the codes.
@@ -56,9 +56,9 @@ async def start_handler(bot: Client, m: Message):
         quote=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("Developer - @AbirHasan2005", url="https://t.me/AbirHasan2005")],
-                [InlineKeyboardButton("Support Group", url="https://t.me/linux_repo"),
-                 InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")],
+                [InlineKeyboardButton("Developer - @AJTITAN", url="https://t.me/AJTITAN")],
+                [InlineKeyboardButton("Support Group", url="https://t.me/movies_as_your_requests"),
+                 InlineKeyboardButton("Bots Channel", url="https://t.me/ajmoviewebofficial")],
                 [InlineKeyboardButton("Open Settings", callback_data="openSettings")]
             ]
         )
